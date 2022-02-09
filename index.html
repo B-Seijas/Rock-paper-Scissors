@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <script src="js/game.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="js/game.js"></script>
+<header> <h1>Rock Paper Scissors</h1></header>
+
+    <div class="scoreBoard">
+        <div id="playerLabel">Player</div>
+        <div id="computerLabel">Computer</div>
+        <span id="playerScore">0</span>:<span id="computerScore">0</span>
+    </div>
+    <div class="result">
+        <p>rock beats scissors. You win!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+    </div>
+    <div id="makeaChoise">Choose your weapon</div>
+
+    <footer>Icons
+        <a target="_blank" href="https://icons8.com/icon/44378/hand-rock">Hand Rock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/2727/hand">Hand</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/44376/hand-scissors">Hand Scissors</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
 </body>
 </html>

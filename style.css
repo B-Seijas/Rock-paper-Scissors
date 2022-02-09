@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+header > h1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: midnightblue;
+}
+
+.scoreBoard{
+    margin: 20px auto;
+    width: 300px;
+    border: 3px solid white;
+    color: aliceblue;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+#playerLabel{
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+#computerLabel{
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 185px;
+}
+
+.result{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.result > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.choice{
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background: rgb(44, 117, 211);
+}
+
+#makeaChoise{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: antiquewhite;
+}
